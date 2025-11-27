@@ -13,9 +13,9 @@ import java.awt.Toolkit;
  */
 public class ResolucaoDeTela {
     public static void main(String[] args) {
-        Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
-        int largura = (int)size.getWidth();
-        int altura = (int)size.getHeight();
+        Dimension size = Toolkit.getDefaultToolkit().getScreenSize(); //pega as dimensões da tela do monitor onde o programa está rodando
+        int largura = (int)size.getWidth(); //pega a largura
+        int altura = (int)size.getHeight(); // pega a altura
         System.out.println("Sua resolução de tela é:"+ largura + "X" + altura);
     }
 }

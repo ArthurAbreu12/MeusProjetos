@@ -12,7 +12,7 @@ import java.util.Locale;
  */
 public class IdiomaDoSistema {
     public static void main(String[] args) {
-         Locale idioma = Locale.getDefault();
+         Locale idioma = Locale.getDefault(); //Locale é uma classe que representa configurações regionais, como o idioma.
          System.out.println("A maquina está no idioma: " + idioma);
     }
 }
